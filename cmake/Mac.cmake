@@ -119,7 +119,7 @@ ENDMACRO(add_mac_plugin)
 
 MACRO(firebreath_find_commands)
 
-    set(XCODE_TOOLS_PATHS /Developer/Tools /Applications/Xcode.app/Contents/Developer/Tools /Applications/Xcode.app/Contents/Developer/usr/bin /usr/bin)
+    set(XCODE_TOOLS_PATHS /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer  /Developer/Tools /Applications/Xcode.app/Contents/Developer/Tools /Applications/Xcode.app/Contents/Developer/usr/bin /usr/bin)
 
     find_program(CMD_CP cp)
     find_program(CMD_RM rm)
